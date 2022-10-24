@@ -1,0 +1,154 @@
+/** @format */
+
+:root {
+  --mainColor: #3a3a3a;
+  --secondaryColor: #686869;
+  --acsentColor: #04ffb4;
+  --thirdColor: #393535;
+  --fourColor: #e6ac38;
+}
+
+body {
+  background-color: var(--mainColor);
+  min-height: 900px;
+  font-family: 'Lato', sans-serif;
+}
+/* Navbar */
+
+.nav-link.active {
+  color: var(--acsentColor) !important;
+  font-weight: 700;
+}
+
+section h1 {
+  color: #fff;
+  font-size: 2.5rem;
+}
+
+.nav-dark {
+  background-color: var(--thirdColor) !important;
+  z-index: 10;
+  transition: .6s;
+  opacity: .95;
+}
+/* End Navbar */
+
+/* Hero */
+#hero {
+  color: #fff;
+  min-height: 100vh;
+  padding-top: 75px;
+}
+
+#hero h1 {
+  font-size: 3rem;
+  color: var(--acsentColor);
+  
+}
+
+#hero h2 {
+  font-weight: 300;
+}
+
+/* CTA */
+.btn-custom1 {
+  background-color: var(--fourColor);
+  text-align: center;
+  color: #fff;
+  min-width: 150px;
+  height: 45px;
+  font-weight: 600;
+  font-size: 1.2rem;
+}
+
+.btn-custom1:hover {
+  box-shadow: 0 0 5px rgba(255, 166, 0, 0.8);
+}
+
+.cv {
+  color: #fff;
+  cursor: pointer;
+  font-size: 1.1rem;
+}
+
+.social-icon svg {
+  margin-right: 0.7em;
+  margin-bottom: 10px;
+}
+
+/* End Hero */
+
+/* Aboout */
+hr {
+  width: 35%;
+  height: 5px;
+  color: var(--fourColor);
+  margin: 0 auto;
+  opacity: 100%;
+}
+
+#about {
+  min-height: 300px;
+  width: 100%;
+  background-color: var(--secondaryColor);
+  color: #fff;
+  padding-top: 80px;
+  padding-bottom: 80px;
+  margin-bottom: 80px;
+}
+
+/* End About */
+
+/* Skill */
+
+#skill {
+  min-height: 325px;
+  width: 100%;
+  color: #fff;
+  padding-bottom: 60px;
+  margin-bottom: 60px;
+}
+
+#skill img {
+  margin: 10px;
+}
+
+#skill .card {
+  background-color: var(--thirdColor);
+  height: 420px;
+  border-radius: 25px;
+  box-shadow: 5px 5px 15px #888;
+}
+
+#skill .card:hover {
+  background-color: var(--acsentColor);
+  color: var(--thirdColor);
+}
+
+.skill-content {
+  margin-top: 120px;
+}
+
+/* Galery Portofolio */
+
+#portofolio {
+  margin-top: -290px;
+  padding: 190px;
+  background-color: var(--secondaryColor);
+  padding-bottom: 80px;
+}
+
+#portofolio .container {
+  padding: 70px 10px;
+  background-color: var(--secondaryColor);
+}
+
+#portofolio .card:hover {
+  background-color: rgba(0, 0, 0, 0.4);
+  color: #fff;
+}
+
+/* footer */
+.social-icon-footer svg {
+  margin-right: .5em;
+}

@@ -1,0 +1,62 @@
+@media screen and (max-width : 1200px) {
+
+    .social-icon {
+        left: 25%;
+        transform: translate(-50%);
+    }
+    #skill .card h3{
+        font-size: 1.3rem !important;
+        margin-bottom: 10px;
+    }
+}
+
+@media screen and ( max-width : 768px) {
+    #hero .row {
+        padding-bottom: 95px;
+    }
+    #hero p {
+        font-size: .8rem;
+    }
+    #hero h1 {
+        font-size: 2.2rem;
+    }
+    .social-icon {
+        left: 50%;
+        transform: translate(-50%);
+    }
+    .btn-custom1 {
+        width: 80%;
+    }
+    
+    #about p {
+        text-align: justify !important;
+    }
+    #skill .card h3 {
+        font-size: 1.3rem;
+        
+    }
+    #skill .card {
+        padding-left: 30px;
+        
+    }
+
+}
+
+@media screen and ( max-width : 576px) {
+    #hero img{
+        width: 60%;
+    }
+    #skill .card {
+        font-size: 1rem;
+    }
+
+
+@media screen and (max-width : 350px) {
+    #hero img{
+        width: 50%;
+    }
+    #skill .card {
+        font-size: 1rem;
+    }
+
+}
